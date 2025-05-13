@@ -1,0 +1,66 @@
+/* State.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.counter-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.counter-value {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #007bff;
+}
+
+.counter-buttons,
+.step-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.counter-btn,
+.step-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.counter-btn:hover,
+.step-btn:hover {
+  background-color: #0056b3;
+}
+
+.step-heading {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
