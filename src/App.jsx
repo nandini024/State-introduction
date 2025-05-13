@@ -1,7 +1,8 @@
 
 
 import React, { Component } from 'react'
-import Product from './Components/Product/Product'
+// import Product from './Components/Product/Product'
+import Dashboard from './Components/Dashboard/Dashboard'
 // import Counterapp from './Components/Counterapp'
 
 
@@ -10,7 +11,8 @@ export default class App extends Component {
     return (
       <div>
      {/* <Counterapp/> */}
-     <Product/>
+     {/* <Product/> */}
+     <Dashboard/>
       </div>
     )
   }

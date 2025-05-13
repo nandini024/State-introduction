@@ -103,7 +103,6 @@ export default class Product extends Component {
       loading:true
     }
   }
- 
   componentDidMount(){
  console.log("Click");
   let fake=JSON.parse(localStorage.getItem("fakeData"))
